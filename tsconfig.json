@@ -11,8 +11,8 @@
     "listEmittedFiles": false,
     "listFiles": false,
     "target": "ESNext",
-    "module": "CommonJS",
-    "moduleResolution": "Node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": false,
     "pretty": true,
@@ -25,6 +25,6 @@
     "sourceMap": true,
     "traceResolution": false
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["src/**/*.test.ts", "jest.config.ts"]
+  "include": ["src/**/*.mts"],
+  "exclude": ["logs", "jest.config.ts"]
 }
